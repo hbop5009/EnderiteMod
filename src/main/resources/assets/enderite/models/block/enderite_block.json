@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enderite:blocks/ruby_block",
+    "up": "enderite:blocks/ruby_block",
+    "north": "enderite:blocks/ruby_block",
+    "east": "enderite:blocks/ruby_block",
+    "south": "enderite:blocks/ruby_block",
+    "west": "enderite:blocks/ruby_block",
+    "particle": "enderite:blocks/ruby_block"
+  }
+}

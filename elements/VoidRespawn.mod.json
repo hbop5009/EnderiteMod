@@ -1,0 +1,50 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Enderite.helmet"
+      },
+      {
+        "value": "CUSTOM:Enderite.body"
+      },
+      {
+        "value": "CUSTOM:Enderite.legs"
+      },
+      {
+        "value": "CUSTOM:Enderite.boots"
+      },
+      {
+        "value": "CUSTOM:EnderitePickaxe"
+      },
+      {
+        "value": "CUSTOM:EnderiteAxe"
+      },
+      {
+        "value": "CUSTOM:EnderiteSword"
+      },
+      {
+        "value": "CUSTOM:EnderiteHoe"
+      },
+      {
+        "value": "CUSTOM:EnderiteShovel"
+      },
+      {
+        "value": "CUSTOM:EnderiteFragment"
+      },
+      {
+        "value": "CUSTOM:EnderiteGem"
+      },
+      {
+        "value": "CUSTOM:EnderiteBlock"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "void_respawn",
+    "namespace": "forge"
+  }
+}

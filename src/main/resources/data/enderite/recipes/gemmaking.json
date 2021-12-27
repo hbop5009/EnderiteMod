@@ -1,0 +1,28 @@
+{
+  "group": "enderite",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enderite:enderite_fragment"
+    },
+    {
+      "item": "enderite:enderite_fragment"
+    },
+    {
+      "item": "enderite:enderite_fragment"
+    },
+    {
+      "item": "enderite:enderite_fragment"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "enderite:enderite_fragment"
+    }
+  ],
+  "result": {
+    "item": "enderite:enderite_gem",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "addition": {
+    "item": "enderite:enderite_gem"
+  },
+  "result": {
+    "item": "enderite:enderite_hoe"
+  }
+}

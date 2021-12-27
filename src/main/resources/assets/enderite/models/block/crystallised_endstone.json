@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enderite:blocks/end_stone",
+    "up": "enderite:blocks/end_stone",
+    "north": "enderite:blocks/end_stone",
+    "east": "enderite:blocks/end_stone",
+    "south": "enderite:blocks/end_stone",
+    "west": "enderite:blocks/end_stone",
+    "particle": "enderite:blocks/end_stone"
+  }
+}

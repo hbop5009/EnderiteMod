@@ -1,0 +1,42 @@
+{
+  "group": "enderite",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enderite:enderite_gem"
+    },
+    "1": {
+      "item": "enderite:enderite_gem"
+    },
+    "2": {
+      "item": "enderite:enderite_gem"
+    },
+    "3": {
+      "item": "enderite:enderite_gem"
+    },
+    "4": {
+      "item": "enderite:enderite_gem"
+    },
+    "5": {
+      "item": "enderite:enderite_gem"
+    },
+    "6": {
+      "item": "enderite:enderite_gem"
+    },
+    "7": {
+      "item": "enderite:enderite_gem"
+    },
+    "8": {
+      "item": "enderite:enderite_gem"
+    }
+  },
+  "result": {
+    "item": "enderite:enderite_block",
+    "count": 1
+  }
+}

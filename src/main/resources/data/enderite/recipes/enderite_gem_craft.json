@@ -1,0 +1,13 @@
+{
+  "group": "enderite",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enderite:enderite_block"
+    }
+  ],
+  "result": {
+    "item": "enderite:enderite_gem",
+    "count": 9
+  }
+}
