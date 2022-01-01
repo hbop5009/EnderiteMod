@@ -15,6 +15,7 @@ import net.mcreator.enderite.EnderiteModElements;
 public class EnderiteHoeItem extends EnderiteModElements.ModElement {
 	@ObjectHolder("enderite:enderite_hoe")
 	public static final Item block = null;
+
 	public EnderiteHoeItem(EnderiteModElements instance) {
 		super(instance, 1);
 	}

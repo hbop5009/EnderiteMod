@@ -15,6 +15,7 @@ import net.mcreator.enderite.EnderiteModElements;
 public class EnderiteShovelItem extends EnderiteModElements.ModElement {
 	@ObjectHolder("enderite:enderite_shovel")
 	public static final Item block = null;
+
 	public EnderiteShovelItem(EnderiteModElements instance) {
 		super(instance, 1);
 	}

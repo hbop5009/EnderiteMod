@@ -15,6 +15,7 @@ import net.mcreator.enderite.EnderiteModElements;
 public class EnderitePickaxeItem extends EnderiteModElements.ModElement {
 	@ObjectHolder("enderite:enderite_pickaxe")
 	public static final Item block = null;
+
 	public EnderitePickaxeItem(EnderiteModElements instance) {
 		super(instance, 1);
 	}

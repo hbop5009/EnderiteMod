@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "netherite_pickaxe",
+    "texture": "pickaxe",
     "customModelName": "Normal",
     "name": "Enderite Pickaxe",
     "specialInfo": [],

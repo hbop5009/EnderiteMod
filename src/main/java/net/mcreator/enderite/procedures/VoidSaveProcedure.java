@@ -40,6 +40,7 @@ public class VoidSaveProcedure {
 			}
 		}
 	}
+
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
@@ -48,8 +49,8 @@ public class VoidSaveProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		double slot = 0;
-		if (((entity.getPosY()) < 0)) {
-			if ((entity.isAlive())) {
+		if (entity.getPosY() < 0) {
+			if (entity.isAlive()) {
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid, Entity entity) {
@@ -592,8 +593,7 @@ public class VoidSaveProcedure {
 				}
 				{
 					ItemStack _setval = ((entity instanceof LivingEntity)
-							? ((LivingEntity) entity)
-									.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3))
+							? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.HEAD)
 							: ItemStack.EMPTY);
 					entity.getCapability(EnderiteModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.enderite_helmet = _setval;
@@ -602,8 +602,7 @@ public class VoidSaveProcedure {
 				}
 				{
 					ItemStack _setval = ((entity instanceof LivingEntity)
-							? ((LivingEntity) entity)
-									.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2))
+							? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.CHEST)
 							: ItemStack.EMPTY);
 					entity.getCapability(EnderiteModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.enderite_chestplate = _setval;
@@ -612,8 +611,7 @@ public class VoidSaveProcedure {
 				}
 				{
 					ItemStack _setval = ((entity instanceof LivingEntity)
-							? ((LivingEntity) entity)
-									.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 1))
+							? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.LEGS)
 							: ItemStack.EMPTY);
 					entity.getCapability(EnderiteModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.enderite_leggings = _setval;
@@ -622,8 +620,7 @@ public class VoidSaveProcedure {
 				}
 				{
 					ItemStack _setval = ((entity instanceof LivingEntity)
-							? ((LivingEntity) entity)
-									.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
+							? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.FEET)
 							: ItemStack.EMPTY);
 					entity.getCapability(EnderiteModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.enderite_boots = _setval;
@@ -639,7 +636,7 @@ public class VoidSaveProcedure {
 				}
 			}
 			{
-				boolean _setval = (boolean) (true);
+				boolean _setval = (true);
 				entity.getCapability(EnderiteModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.below_y0 = _setval;
 					capability.syncPlayerVariables(entity);
@@ -647,7 +644,7 @@ public class VoidSaveProcedure {
 			}
 		} else {
 			{
-				boolean _setval = (boolean) (false);
+				boolean _setval = (false);
 				entity.getCapability(EnderiteModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.below_y0 = _setval;
 					capability.syncPlayerVariables(entity);

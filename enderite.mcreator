@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "Enderite",
@@ -7,7 +6,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite",
       "metadata": {
         "eh": true,
@@ -22,7 +20,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_pickaxe"
     },
     {
@@ -31,7 +28,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_axe"
     },
     {
@@ -40,7 +36,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_sword"
     },
     {
@@ -49,7 +44,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_hoe"
     },
     {
@@ -58,7 +52,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_shovel"
     },
     {
@@ -67,7 +60,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_respawn",
       "metadata": {
         "dependencies": [
@@ -84,7 +76,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "crystallised_endstone"
     },
     {
@@ -93,7 +84,6 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_fragment"
     },
     {
@@ -102,7 +92,6 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_fragment_making"
     },
     {
@@ -111,7 +100,6 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_gem"
     },
     {
@@ -120,7 +108,6 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gemmaking"
     },
     {
@@ -129,7 +116,6 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "swordmaking"
     },
     {
@@ -138,7 +124,6 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "pikaxemaking"
     },
     {
@@ -147,7 +132,6 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "axemaking"
     },
     {
@@ -156,7 +140,6 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hoemaking"
     },
     {
@@ -165,7 +148,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sghovelmaking"
     },
     {
@@ -174,7 +156,6 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "helmynmakinf"
     },
     {
@@ -183,7 +164,6 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chest"
     },
     {
@@ -192,7 +172,6 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "legfinfmakingf"
     },
     {
@@ -201,7 +180,6 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bootsmakinb"
     },
     {
@@ -210,7 +188,6 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_block"
     },
     {
@@ -219,7 +196,6 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_block_craft"
     },
     {
@@ -228,7 +204,6 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "enderite_gem_craft"
     },
     {
@@ -237,7 +212,6 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "beacon_base_block_blocks"
     },
     {
@@ -246,7 +220,6 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "void_respawn"
     },
     {
@@ -255,7 +228,6 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "void_save",
       "metadata": {
         "dependencies": [
@@ -525,8 +497,8 @@
   "language_map": {
     "en_us": {
       "block.enderite.enderite_block": "Enderite Block",
-      "item.enderite.enderite_axe": "Enderite Axe",
       "item.enderite.enderite_pickaxe": "Enderite Pickaxe",
+      "item.enderite.enderite_axe": "Enderite Axe",
       "item.enderite.enderite_gem": "Enderite Gem",
       "block.enderite.crystallised_endstone": "Crystallised Endstone",
       "item.enderite.enderite_boots": "Enderite Boots",
@@ -560,5 +532,5 @@
     "modElementsPackage": "net.mcreator.enderite",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100236710
+  "mcreatorVersion": 202100353117
 }

@@ -15,6 +15,7 @@ import net.mcreator.enderite.EnderiteModElements;
 public class EnderiteGemItem extends EnderiteModElements.ModElement {
 	@ObjectHolder("enderite:enderite_gem")
 	public static final Item block = null;
+
 	public EnderiteGemItem(EnderiteModElements instance) {
 		super(instance, 10);
 	}
@@ -23,6 +24,7 @@ public class EnderiteGemItem extends EnderiteModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.COMMON));

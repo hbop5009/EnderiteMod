@@ -15,6 +15,7 @@ import net.mcreator.enderite.EnderiteModElements;
 public class EnderiteSwordItem extends EnderiteModElements.ModElement {
 	@ObjectHolder("enderite:enderite_sword")
 	public static final Item block = null;
+
 	public EnderiteSwordItem(EnderiteModElements instance) {
 		super(instance, 1);
 	}

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "netherite_axe",
+    "texture": "axe",
     "customModelName": "Normal",
     "name": "Enderite Axe",
     "specialInfo": [],

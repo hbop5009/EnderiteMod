@@ -28,6 +28,7 @@ public class EnderiteItem extends EnderiteModElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("enderite:enderite_boots")
 	public static final Item boots = null;
+
 	public EnderiteItem(EnderiteModElements instance) {
 		super(instance, 1);
 	}
@@ -101,4 +102,5 @@ public class EnderiteItem extends EnderiteModElements.ModElement {
 			}
 		}.setRegistryName("enderite_boots"));
 	}
+
 }

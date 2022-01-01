@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "netherite_shovel",
+    "texture": "shovel",
     "customModelName": "Normal",
     "name": "Enderite Shovel",
     "specialInfo": [],

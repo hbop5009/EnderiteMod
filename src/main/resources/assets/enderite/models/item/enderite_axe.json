@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "enderite:items/netherite_axe"
+    "layer0": "enderite:items/axe"
   }
 }

@@ -25,6 +25,7 @@ import java.util.Collections;
 public class EnderiteBlockBlock extends EnderiteModElements.ModElement {
 	@ObjectHolder("enderite:enderite_block")
 	public static final Block block = null;
+
 	public EnderiteBlockBlock(EnderiteModElements instance) {
 		super(instance, 21);
 	}
@@ -35,6 +36,7 @@ public class EnderiteBlockBlock extends EnderiteModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(50f, 1200f).setLightLevel(s -> 0)

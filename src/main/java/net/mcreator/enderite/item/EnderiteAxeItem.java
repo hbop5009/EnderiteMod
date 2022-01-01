@@ -15,6 +15,7 @@ import net.mcreator.enderite.EnderiteModElements;
 public class EnderiteAxeItem extends EnderiteModElements.ModElement {
 	@ObjectHolder("enderite:enderite_axe")
 	public static final Item block = null;
+
 	public EnderiteAxeItem(EnderiteModElements instance) {
 		super(instance, 1);
 	}
